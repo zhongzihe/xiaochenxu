@@ -1,0 +1,5 @@
+<!--pages/test/test.wxml-->
+<open-data type="userAvatarUrl"></open-data>
+<open-data type="userNickName"></open-data>
+<button wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">微信授权</button>
+<view wx:else>请升级微信版本</view>
